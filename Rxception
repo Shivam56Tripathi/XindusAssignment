@@ -1,0 +1,51 @@
+#EmptyWishListException
+
+package com.example.XindusEcommerce.Exceptions;
+
+
+public class EmptyWishListCustomException extends Exception{
+    public EmptyWishListCustomException(String emptyWishList) {
+          super(emptyWishList);
+    }
+}
+
+
+#ItemNotFoundException
+
+package com.example.XindusEcommerce.Exceptions;
+
+public class ItemNotFoundCustomException extends Exception{
+    public ItemNotFoundCustomException(String itemNotFound) {
+        super(itemNotFound);
+    }
+}
+
+
+#PasswordIncorrectException
+package com.example.XindusEcommerce.Exceptions;
+
+public class PassWordInCorrectCustomExceptions extends Exception{
+
+    public PassWordInCorrectCustomExceptions(String userExist) {
+        super(userExist);
+    }
+}
+
+#UniqueConstraintException
+package com.example.XindusEcommerce.Exceptions;
+
+public class UniqueConstraintCustomExceptions extends Exception {
+
+    public UniqueConstraintCustomExceptions(String userExist) {
+        super(userExist);
+    }
+}
+
+#UserNotFoundException
+package com.example.XindusEcommerce.Exceptions;
+
+public class UserNotFoundException extends Exception {
+    public UserNotFoundException(String s) {
+        super(s);
+    }
+}
